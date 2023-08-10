@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#products {
+    width: 100%;
+    height: 30vh;
+    margin-top: 70px;
+}
+
+.product {
+    width: 97%;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    background: linear-gradient(rgba(0.5, 0.5, 0, 0), #808080), url(Images/PRODUCTS/Untitled\ design.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.product h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#product-section {
+    width: 100%;
+    /* height: 150vh; */
+    margin-top: 50px;
+}
+
+.filters {
+    width: 97%;
+    height: 100%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #eceaea;
+}
+
+.filter-content {
+    width: 97%;
+    height: 100%;
+    display: grid;
+    margin: auto;
+    gap: 1rem;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+}
+
+.filter-txt {
+    width: 200px;
+    background: linear-gradient(rgba(0.5, 0.5, 0.5, 0), #008000);
+    /* background: #008000; */
+    padding: 12px;
+    margin: auto;
+    transform: skew(20deg);
+}
+
+.filter-txt h2 {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    transform: skew(-20deg);
+}
+
+
+.filter-content p {
+    margin-left: 25px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.filter-itm {
+    /* width: 23.2% !important;
+    height: 52vh !important; */
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0.5px solid #808080;
+    margin-bottom: 25px;
+}
+
+.filter-itm img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.product-whatsapp a img {
+    width: 144px;
+    height: 35px;
+}
+
+.icot-product {
+    width: 155px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #008000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+
+.icot-product a {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+
+.icot-product a:hover {
+    color: #03f803;
+    text-decoration: none;
+}
+
+.itm_1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* .contents {
+    width: 100%;
+    height: 100%;
+    display: grid;
+     justify-content: space-evenly; 
+    grid-template-columns: 45% 45% 45%;
+    row-gap: 5px;
+} */
