@@ -1,0 +1,647 @@
+/* HEADER FOR MOBILE PHONES */
+
+@media screen and (max-width: 700px) {
+    .pre-header_menu {
+        display: none;
+    }
+
+    .social_media {
+        display: none;
+    }
+
+    .head,
+    .pre-header {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .head {
+        display: block;
+    }
+
+    .logo-img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .title p {
+        font-size: 19px;
+        margin-top: 19px;
+    }
+
+    .text-search {
+        margin-left: 22px;
+    }
+
+    .search-bar {
+        width: 158%;
+        height: 34px;
+        margin-top: 1px;
+        padding: 10px 0px;
+    }
+
+    .search-bar button {
+        width: 34px;
+        height: 34px;
+    }
+
+    .search-bar button img {
+        width: 26px;
+    }
+
+    .search-bar input {
+        font-size: 10px;
+    }
+
+    .icon1 span,
+    .icon2 span,
+    .icon3 span {
+        display: none;
+    }
+
+    .personal-icons {
+        margin-top: 7px;
+        margin-left: 6em;
+    }
+
+    .post-header {
+        height: 0;
+    }
+
+    /* MOBILE MENU */
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+        background: #008000;
+    }
+
+    .navbar__menu.active {
+        background: #008000;
+        top: 26%;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        font-size: 1.6rem;
+        display: flex;
+        overflow-y: scroll;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu {
+        position: relative;
+        top: -5%;
+        right: 3%;
+        transform: translate(5%, 20%);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-links {
+        width: 71%;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid #808080;
+    }
+
+    .nav-links li {
+        margin-top: 16px;
+        width: 55px;
+        margin-left: 25px;
+    }
+
+    .drp-left {
+        width: 46%;
+        height: 23em;
+    }
+
+    .icon4 {
+        margin-left: 3em;
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .dropdown-menu {
+        overflow: scroll;
+        margin-left: 10.125rem !important;
+    }
+
+    .hero {
+        width: 100%;
+        height: 75vh;
+        margin-left: 0;
+    }
+
+    .carousel-item img {
+        width: 45%;
+        height: 41vh;
+        margin-top: 141px;
+    }
+
+    .carousel-caption {
+        left: 0% !important;
+        bottom: 24px !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 25px;
+    }
+
+    .little-detail {
+        height: 252px;
+    }
+
+    .details {
+        height: 182px;
+        display: block;
+    }
+
+    .descs {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #centered {
+        margin-left: 45px;
+    }
+
+    .desc {
+        margin: 0;
+    }
+
+    .desc i {
+        font-size: 20px;
+    }
+
+    .desc-text h5 {
+        font-size: 19px;
+    }
+
+    .desc-text p {
+        font-size: 12px;
+    }
+
+    .deal-txt h3 {
+        font-size: 20px;
+    }
+
+    .banner-btn a {
+        width: 118px;
+        padding: 3px 12px;
+    }
+
+    .tns-controls {
+        width: 22em;
+    }
+
+    .tns-controls button {
+        width: 95px;
+        height: 37px;
+    }
+
+    #tns1>.tns-item {
+        width: calc(5.55556%) !important;
+    }
+
+    .slide-itm img {
+        height: 130px;
+    }
+
+    .slide-txt h5 {
+        font-size: 13px;
+    }
+
+    .slide-txt h4 {
+        font-size: 19px;
+    }
+
+    .slide-txt i {
+        font-size: 11px;
+    }
+
+    .buy-btn a {
+        width: 86px;
+        padding: 5px 4px;
+        font-size: 11px;
+    }
+
+    .slide-itm {
+        height: 46vh !important;
+    }
+
+    .deals {
+        height: 75vh;
+    }
+
+    .side-section {
+        width: 100%;
+        height: 94vh;
+    }
+
+    .side-items {
+        display: block;
+    }
+
+    #item-1,
+    #item-2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #item-2 {
+        margin-top: 15px;
+    }
+
+    #item-1 img,
+    #item-2 img {
+        width: 110px;
+        height: 130px;
+        margin-top: 33px;
+    }
+
+    .bnr {
+        height: 80vh;
+    }
+
+    .bnr-details img {
+        height: 23%;
+    }
+
+    .bnr-text {
+        width: 97%;
+        height: 76vh;
+        margin: 15px 0px 0px 6px;
+    }
+
+    .bnr-parag {
+        width: 100%;
+        display: block;
+    }
+
+    .categry {
+        display: block;
+    }
+
+    .features {
+        height: 154vh;
+    }
+
+    .categry-deat {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .deat2 {
+        margin-top: 86%;
+    }
+
+    .auto-make {
+        height: 115vh;
+    }
+
+    .types {
+        width: 100%;
+        height: 22%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+    }
+
+    .make {
+        height: 158px;
+    }
+
+    .best-selling {
+        height: 180vh;
+    }
+
+    .sell-deat {
+        height: 45%;
+        display: block;
+    }
+
+    .major {
+        width: 99% !important;
+        height: 92%;
+    }
+
+    .sell-itm {
+        width: 100%;
+        height: 70vh !important;
+        margin-top: 15px;
+    }
+
+    .sell-itm img {
+        height: 216px;
+    }
+
+    .small-sell {
+        width: 97%;
+        margin: auto;
+    }
+
+    .minor2 {
+        margin-top: 69px;
+    }
+
+    .minor-btn a {
+        width: 101px;
+    }
+
+    .minor-itm {
+        height: 42vh !important;
+    }
+
+    .minor-txt h6 {
+        font-size: 9px;
+    }
+
+    .minor-txt h5 {
+        font-size: 13px;
+    }
+
+    footer {
+        height: 175vh;
+    }
+
+    .pre-footer {
+        height: 14%;
+    }
+
+    .pre-footer-txt {
+        display: block;
+        padding: 23px;
+    }
+
+    .footer-main {
+        height: 75%;
+    }
+
+    .footer-child {
+        display: block;
+    }
+
+    .child-one {
+        height: 44%;
+        width: 98%;
+    }
+
+    .information,
+    .informations {
+        margin-top: 10px;
+        height: 174px;
+        justify-content: unset;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+    .navbar__menu.active {
+        top: 19%;
+    }
+
+    .slide-itm {
+        height: 31vh !important;
+    }
+
+    .deals {
+        height: 48vh;
+    }
+
+    .bnr {
+        height: 53vh;
+    }
+
+    .features {
+        height: 117vh;
+    }
+
+    .auto-make {
+        height: 82vh;
+    }
+
+    .sell-itm {
+        height: 56vh !important;
+    }
+
+    .major {
+        height: 72%;
+    }
+
+    .minor-itm {
+        height: 32vh !important;
+    }
+
+    .small-sell {
+        height: 63%;
+    }
+
+    .sell-deat {
+        height: 63%;
+    }
+
+    .best-selling {
+        height: 127vh;
+    }
+
+    footer {
+        height: 116vh;
+    }
+
+    .child-one {
+        height: 381px;
+    }
+
+    .information {
+        margin-top: 10px;
+        height: 187px !important;
+    }
+
+    .informations {
+        height: 143px !important;
+    }
+}
+
+/* LITTLE DEALS/DEALS FOR MOBILE */
+@media screen and (min-width: 390px) and (max-width:393px) {
+    .navbar__menu.active {
+        top: 21%;
+    }
+
+    .slide-itm {
+        height: 35vh !important;
+    }
+
+    .deals {
+        height: 54vh;
+    }
+
+    .bnr {
+        height: 60vh;
+    }
+
+    .features {
+        height: 123vh;
+    }
+
+    .auto-make {
+        height: 88vh;
+    }
+
+    .best-selling {
+        height: 142vh;
+    }
+
+    .sell-itm {
+        height: 58vh !important;
+    }
+
+    .minor-itm {
+        height: 35vh !important;
+    }
+
+    footer {
+        height: 114vh;
+    }
+
+    .footer-main {
+        height: 89%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 820px) {
+    .icon4 {
+        margin-left: 4em;
+    }
+
+    .drp-left {
+        width: 24%;
+        margin-left: 4px;
+    }
+
+    .buy-btn a {
+        width: 119px;
+    }
+
+    .slide-itm {
+        height: 33vh !important;
+    }
+
+    .deals {
+        height: 52vh;
+    }
+
+    .side-items {
+        padding: 6px;
+    }
+
+    .bnr {
+        height: 77vh;
+    }
+
+    .bnr-parag {
+        width: 87%;
+    }
+
+    .features {
+        height: 38vh;
+    }
+
+    .auto-make {
+        height: 63vh;
+    }
+
+    .types {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto auto;
+    }
+
+    .make {
+        height: 176px;
+    }
+
+    .categry-img img {
+        width: 76px;
+        margin-left: 18px;
+    }
+
+    .categry-text {
+        padding: 4px;
+    }
+
+    .categry-btn a {
+        padding: 4px;
+    }
+
+    .sell-itm {
+        height: 48.2vh !important;
+    }
+
+    .major-btn a {
+        width: 192px;
+    }
+
+    .minor-btn a {
+        width: 153px;
+    }
+
+    .best-selling {
+        height: 66vh;
+    }
+
+    .minor-itm {
+        height: 28vh !important;
+    }
+
+    .pre-footer {
+        height: 15%;
+    }
+
+    .carousel-item img {
+        height: 38vh;
+    }
+
+    .hero {
+        width: 69%;
+        height: 39vh;
+        margin-left: 28%;
+    }
+
+    .pre-header_menu {
+        margin-left: -166px;
+    }
+}
+
+/* LITTLE DEALS/DEALS FOR MOBILE ENDS */
+/* CAROUSEL SECTION FOR MOBILE ENDS */
