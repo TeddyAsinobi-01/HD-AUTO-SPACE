@@ -46,6 +46,7 @@
     height: 100%;
     display: grid;
     margin: auto;
+    padding-top: 40px;
     gap: 1rem;
     justify-content: space-evenly;
     grid-template-columns: auto auto auto auto;
