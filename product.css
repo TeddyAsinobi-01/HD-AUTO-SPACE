@@ -29,23 +29,68 @@
 
 #product-section {
     width: 100%;
-    /* height: 150vh; */
+    height: 205vh;
     margin-top: 50px;
 }
 
 .filters {
     width: 97%;
-    height: 100%;
+    height: 205vh;
     margin: auto;
     padding-top: 20px;
     background-color: #eceaea;
 }
 
+/* CONCERNING THE PAGINATION */
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+}
+
+.slide-row {
+    display: flex;
+    transition: .5s ease-in-out;
+}
+
+.testimonial {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -615px;
+    display: flex;
+}
+
+.btn {
+    display: block !important;
+    height: 27px;
+    width: 27px;
+    padding: 0px 0px 0px 8px !important;
+    margin: 4px;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    color: #000;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #008000 !important;
+}
+
+/* PAGINATION ENDS */
 .filter-content {
     width: 97%;
     height: 100%;
     display: grid;
     margin: auto;
+    margin-right: 45px;
     padding-top: 40px;
     gap: 1rem;
     justify-content: space-evenly;
