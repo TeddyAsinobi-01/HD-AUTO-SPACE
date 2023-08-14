@@ -1097,6 +1097,18 @@ footer input {
     background-color: #008000;
 }
 
+.icot a {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+
+.icot a:hover {
+    color: #03f803;
+    text-decoration: none;
+}
+
 .footer-main {
     width: 100%;
     height: 60%;

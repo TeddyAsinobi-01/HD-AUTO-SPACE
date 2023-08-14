@@ -29,13 +29,13 @@
 
 #product-section {
     width: 100%;
-    height: 225vh;
+    height: 179vh;
     margin-top: 50px;
 }
 
 .filters {
     width: 97%;
-    height: 225vh;
+    height: 179vh;
     margin: auto;
     padding-top: 20px;
     background-color: #eceaea;
@@ -58,16 +58,17 @@
     width: 80%;
     overflow: hidden;
     margin: auto;
+    margin-left: 162px;
 }
 
 .indicator {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -700px;
     display: flex;
 }
 
+.btn2,
 .btn {
     display: block !important;
     height: 27px;
@@ -78,7 +79,12 @@
     background-color: #fff !important;
     color: #000;
     cursor: pointer;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.btn2:hover,
+.btn:hover {
+    background-color: #008000 !important;
 }
 
 .active {
@@ -99,11 +105,11 @@
 }
 
 .filter-txt {
-    width: 200px;
+    width: 212px;
     background: linear-gradient(rgba(0.5, 0.5, 0.5, 0), #008000);
-    /* background: #008000; */
     padding: 12px;
     margin: auto;
+    text-align: center;
     transform: skew(20deg);
 }
 
