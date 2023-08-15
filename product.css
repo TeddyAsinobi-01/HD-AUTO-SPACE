@@ -68,6 +68,7 @@
     display: flex;
 }
 
+.btn3,
 .btn2,
 .btn {
     display: block !important;
@@ -82,6 +83,21 @@
     transition: 0.5s ease-in-out;
 }
 
+.btn3 a,
+.btn2 a,
+.btn a {
+    color: #000;
+    transition: .5s ease-in-out;
+}
+
+.btn3 a:hover,
+.btn2 a:hover,
+.btn a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn3:hover,
 .btn2:hover,
 .btn:hover {
     background-color: #008000 !important;
@@ -105,7 +121,7 @@
 }
 
 .filter-txt {
-    width: 212px;
+    width: fit-content;
     background: linear-gradient(rgba(0.5, 0.5, 0.5, 0), #008000);
     padding: 12px;
     margin: auto;
