@@ -33,6 +33,10 @@
     margin-top: 50px;
 }
 
+.filters-too {
+    height: 110vh !important;
+}
+
 .filters {
     width: 97%;
     height: 179vh;
@@ -68,6 +72,7 @@
     display: flex;
 }
 
+.btn4,
 .btn3,
 .btn2,
 .btn {
@@ -83,6 +88,7 @@
     transition: 0.5s ease-in-out;
 }
 
+.btn4 a,
 .btn3 a,
 .btn2 a,
 .btn a {
@@ -90,6 +96,7 @@
     transition: .5s ease-in-out;
 }
 
+.btn4 a:hover,
 .btn3 a:hover,
 .btn2 a:hover,
 .btn a:hover {
@@ -97,6 +104,7 @@
     text-decoration: none;
 }
 
+.btn4:hover,
 .btn3:hover,
 .btn2:hover,
 .btn:hover {
