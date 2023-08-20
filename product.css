@@ -34,7 +34,7 @@
 }
 
 .filters-too {
-    height: 110vh !important;
+    height: 160vh !important;
 }
 
 .filters {
@@ -72,6 +72,8 @@
     display: flex;
 }
 
+.btn6,
+.btn5,
 .btn4,
 .btn3,
 .btn2,
@@ -88,6 +90,8 @@
     transition: 0.5s ease-in-out;
 }
 
+.btn6 a,
+.btn5 a,
 .btn4 a,
 .btn3 a,
 .btn2 a,
@@ -96,6 +100,8 @@
     transition: .5s ease-in-out;
 }
 
+.btn6 a:hover,
+.btn5 a:hover,
 .btn4 a:hover,
 .btn3 a:hover,
 .btn2 a:hover,
@@ -104,6 +110,8 @@
     text-decoration: none;
 }
 
+.btn6:hover,
+.btn5:hover,
 .btn4:hover,
 .btn3:hover,
 .btn2:hover,

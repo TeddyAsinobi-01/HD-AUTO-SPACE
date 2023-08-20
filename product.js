@@ -124,3 +124,54 @@ btn4[2].onclick = function () {
     }
     this.classList.add("active");
 }
+
+//PAGINATION FOR AXLES
+var btn5 = document.getElementsByClassName("btn5");
+var slide5 = document.getElementById("slide5");
+
+btn5[0].onclick = function () {
+    slide5.style.transform = "translatex(0px)";
+    for (i = 0; i < 4; i++) {
+        btn5[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+btn5[1].onclick = function () {
+    slide5.style.transform = "translatex(-870px)";
+    for (i = 0; i < 4; i++) {
+        btn5[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+btn5[2].onclick = function () {
+    slide5.style.transform = "translatex(-1800px)";
+    for (i = 0; i < 4; i++) {
+        btn5[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+btn5[3].onclick = function () {
+    slide5.style.transform = "translatex(-1800px)";
+    for (i = 0; i < 4; i++) {
+        btn5[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+//PAGINATION FOR AXLES
+var btn6 = document.getElementsByClassName("btn6");
+var slide6 = document.getElementById("slide6");
+
+btn6[0].onclick = function () {
+    slide6.style.transform = "translatex(0px)";
+    for (i = 0; i < 2; i++) {
+        btn6[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+btn6[1].onclick = function () {
+    slide6.style.transform = "translatex(-870px)";
+    for (i = 0; i < 2; i++) {
+        btn6[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
