@@ -33,6 +33,14 @@
     margin-top: 50px;
 }
 
+.filters3 {
+    height: 120vh !important;
+}
+
+.filters-to {
+    height: 100vh !important;
+}
+
 .filters-too {
     height: 160vh !important;
 }
@@ -72,6 +80,7 @@
     display: flex;
 }
 
+.btn7,
 .btn6,
 .btn5,
 .btn4,
@@ -90,6 +99,7 @@
     transition: 0.5s ease-in-out;
 }
 
+.btn7 a,
 .btn6 a,
 .btn5 a,
 .btn4 a,
@@ -100,6 +110,7 @@
     transition: .5s ease-in-out;
 }
 
+.btn7 a:hover,
 .btn6 a:hover,
 .btn5 a:hover,
 .btn4 a:hover,
@@ -110,6 +121,7 @@
     text-decoration: none;
 }
 
+.btn7:hover,
 .btn6:hover,
 .btn5:hover,
 .btn4:hover,

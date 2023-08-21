@@ -157,7 +157,7 @@ btn5[3].onclick = function () {
     }
     this.classList.add("active");
 }
-//PAGINATION FOR AXLES
+//PAGINATION FOR BRAKES
 var btn6 = document.getElementsByClassName("btn6");
 var slide6 = document.getElementById("slide6");
 
@@ -172,6 +172,24 @@ btn6[1].onclick = function () {
     slide6.style.transform = "translatex(-870px)";
     for (i = 0; i < 2; i++) {
         btn6[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+//PAGINATION FOR BOLTS
+var btn7 = document.getElementsByClassName("btn7");
+var slide7 = document.getElementById("slide7");
+
+btn7[0].onclick = function () {
+    slide7.style.transform = "translatex(0px)";
+    for (i = 0; i < 2; i++) {
+        btn7[i].classList.remove("active");
+    }
+    this.classList.add("active");
+}
+btn7[1].onclick = function () {
+    slide7.style.transform = "translatex(-870px)";
+    for (i = 0; i < 2; i++) {
+        btn7[i].classList.remove("active");
     }
     this.classList.add("active");
 }
