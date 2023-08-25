@@ -9,6 +9,10 @@
         display: none;
     }
 
+    .whatsapp {
+        bottom: 5em;
+    }
+
     .head,
     .pre-header {
         width: 100%;
@@ -428,6 +432,10 @@
 @media screen and (min-width: 412px) and (max-width: 414px) {
     .navbar__menu.active {
         top: 19%;
+    }
+
+    .whatsapp {
+        bottom: 10em;
     }
 
     .slide-itm {

@@ -1,6 +1,97 @@
+@media screen and (width: 360px) {
+    .filters {
+        height: 251vh;
+    }
+
+    #product-section {
+        height: 251vh;
+    }
+
+    .filters-too {
+        height: 237vh !important;
+    }
+
+    .and {
+        height: 203vh !important;
+    }
+
+    .filters-to {
+        height: 116vh !important;
+    }
+
+    .filters3 {
+        height: 169vh !important;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width:393px) {
+    .filters {
+        height: 220vh;
+    }
+
+    #product-section {
+        height: 220vh;
+    }
+
+    .filters-too {
+        height: 209vh !important;
+    }
+
+    .and {
+        height: 176vh !important;
+    }
+
+    .filters-to {
+        height: 105vh !important;
+    }
+
+    .filters3 {
+        height: 152vh !important;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+    .testimonial {
+        width: 95%;
+    }
+
+    #product-section {
+        height: 206vh;
+    }
+
+    #products {
+        width: 100%;
+        height: 14vh;
+    }
+
+    .filters {
+        height: 206vh;
+    }
+
+    .filters-too {
+        height: 196vh !important;
+    }
+
+    .and {
+        height: 168vh !important;
+    }
+
+    .filters-to {
+        height: 99vh !important;
+    }
+
+    .filters3 {
+        height: 141vh !important;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .product {
         height: 143px;
+    }
+
+    #products {
+        height: 21vh;
     }
 
     .product h1 {
@@ -12,9 +103,10 @@
         margin-left: 0 !important;
     }
 
-    /* .slide-row {
-        display: block;
-    } */
+    .filter-txt h2 {
+        font-size: 18px;
+    }
+
     #product-section {
         width: 100%;
         height: 280vh;
@@ -46,32 +138,174 @@
     }
 }
 
-@media screen and (min-width: 412px) and (max-width: 414px) {
-    .testimonial {
-        width: 95%;
+@media screen and (width: 768px) {
+    .whatsapp {
+        top: 40em;
     }
 
-    #product-section {
-        height: 206vh;
+    .text-search {
+        margin-left: -23px;
+    }
+
+    .filter-content {
+        grid-template-columns: auto auto auto;
+    }
+
+    .testimonial {
+        width: 97%;
+        margin-left: 64px;
+    }
+
+    #products {
+        height: 19vh;
     }
 
     .filters {
-        height: 206vh;
+        height: 140vh;
+    }
+
+    #product-section {
+        height: 140vh;
     }
 
     .filters-too {
-        height: 196vh !important;
+        height: 130vh !important;
     }
 
     .and {
-        height: 168vh !important;
+        height: 131vh !important;
     }
 
     .filters-to {
-        height: 99vh !important;
+        height: 65vh !important;
     }
 
     .filters3 {
-        height: 141vh !important;
+        height: 103vh !important;
     }
 }
+
+@media screen and (width: 820px) {
+    .whatsapp {
+        top: 40em;
+    }
+
+    .filter-content {
+        grid-template-columns: auto auto auto;
+    }
+
+    .testimonial {
+        width: 97%;
+        margin-left: 64px;
+    }
+
+    #products {
+        height: 19vh;
+    }
+
+    .filters {
+        height: 124vh;
+    }
+
+    #product-section {
+        height: 124vh;
+    }
+
+    .filters-too {
+        height: 114vh !important;
+    }
+
+    .and {
+        height: 116vh !important;
+    }
+
+    .filters-to {
+        height: 60vh !important;
+    }
+
+    .filters3 {
+        height: 93vh !important;
+    }
+}
+
+
+@media screen and (width: 1024px) {
+
+    /* .whatsapp {
+        top: 40em;
+    } */
+
+    .testimonial {
+        width: 95%;
+        margin-left: 64px;
+    }
+
+    #products {
+        height: 36vh;
+    }
+
+    .filters {
+        height: 192vh;
+    }
+
+    #product-section {
+        height: 192vh;
+    }
+
+    .filters-too {
+        height: 175vh !important;
+    }
+
+    .and {
+        height: 176vh !important;
+    }
+
+    .filters-to {
+        height: 111vh !important;
+    }
+
+    .filters3 {
+        height: 128vh !important;
+    }
+}
+
+
+/* @media screen and (width: 1280px) {
+
+    .whatsapp {
+        top: 40em;
+    }
+
+    .testimonial {
+        width: 79%;
+        margin-left: 64px;
+    }
+
+    #products {
+        height: 19vh;
+    }
+
+    .filters {
+        height: 142vh;
+    }
+
+    #product-section {
+        height: 142vh;
+    }
+
+    .filters-too {
+        height: 132vh !important;
+    }
+
+    .and {
+        height: 130vh !important;
+    }
+
+    .filters-to {
+        height: 85vh !important;
+    }
+
+    .filters3 {
+        height: 93vh !important;
+    }
+} */
