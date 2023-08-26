@@ -10,7 +10,7 @@
     }
 
     .whatsapp {
-        bottom: 5em;
+        bottom: 7em;
     }
 
     .head,
@@ -409,7 +409,7 @@
     }
 
     .footer-main {
-        height: 75%;
+        height: 574%;
     }
 
     .footer-child {
@@ -417,7 +417,7 @@
     }
 
     .child-one {
-        height: 44%;
+        height: 400px;
         width: 98%;
     }
 
@@ -426,6 +426,10 @@
         margin-top: 10px;
         height: 174px;
         justify-content: unset;
+    }
+
+    .pre-footer-txt h1 {
+        font-size: 39px;
     }
 }
 

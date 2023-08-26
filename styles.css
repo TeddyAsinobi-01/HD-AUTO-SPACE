@@ -260,6 +260,10 @@ nav ul li:hover::after {
     border: 1px solid #023602;
 }
 
+
+
+
+
 .dropright {
     width: 100%;
     border-bottom: 0.5px solid #6c757d !important;
@@ -1094,7 +1098,8 @@ footer input {
     width: 300px;
     padding: 15px;
     border-radius: 5px;
-    background-color: #008000;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), #008000);
+
 }
 
 .icot a {

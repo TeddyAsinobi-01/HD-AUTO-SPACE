@@ -12,38 +12,51 @@ var slider = tns({
     slideBy: 'page',
     autoplay: true
 });
+function liveSearch() {
+    // Locate the card elements
+    let cards = document.querySelectorAll('.cards')
+    // Locate the search input
+    let search_query = document.getElementById("searchbox").value;
+    // Loop through the cards
+    for (var i = 0; i < cards.length; i++) {
+        // If the text is within the card...
+        if (cards[i].innerText.toLowerCase()
+            // ...and the text matches the search query...
+            .includes(search_query.toLowerCase())) {
+            // ...remove the `.is-hidden` class.
+            cards[i].classList.remove("is-hidden");
+        } else {
+            // Otherwise, add the class.
+            cards[i].classList.add("is-hidden");
+        }
+    }
+}
+// JavaScript code
+// function search_items() {
+//     let input = document.getElementsByClassName('search-bar').value
+//     input = input.toLowerCase();
+//     let x = document.getElementsByTagName("h5");
 
-// var slider = tns({
-//     container: '.my-slider',
-//     items: 1,
-//     responsive: {
-//         640: {
-//             edgePadding: 20,
-//             gutter: 20,
-//             items: 2
-//         },
-//         700: {
-//             gutter: 30
-//         },
-//         900: {
-//             items: 3
+//     for (i = 0; i < x.length; i++) {
+//         if (!x[i].innerHTML.toLowerCase().includes(input)) {
+//             x[i].style.display = "none";
+//         }
+//         else {
+//             x[i].style.display = "list-item";
 //         }
 //     }
-// });
-// HOPEFULLY AUTOPLAY
-// let autoplay = document.querySelector('#autoplay');
-
-// {
-//     "container": "#autoplay",
-//     "items": 3,
-//     "speed": 300,
-//     "autoplay": true,
-//     "autoplayHoverPause": true,
-//     "autoplayTimeout": 3500,
-//     "autoplayText": ["▶",
-//         "❚❚"
-//     ],
-//     "swipeAngle": false
 // }
-//import { tns } from './src/tiny-slider.js';
+// function search_animal() {
+//     let input = document.getElementById('searchbar').value
+//     input = input.toLowerCase();
+//     let x = document.getElementsByClassName('animals');
 
+//     for (i = 0; i < x.length; i++) {
+//         if (!x[i].innerHTML.toLowerCase().includes(input)) {
+//             x[i].style.display = "none";
+//         }
+//         else {
+//             x[i].style.display = "list-item";
+//         }
+//     }
+// }

@@ -33,7 +33,13 @@
 
 <body>
     <section class="head">
+
         <div class="logo-text">
+            <!-- MOBILE MENU -->
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <div class="logo-img">
                 <img src="Images/Logo.jpg">
             </div>
@@ -44,24 +50,53 @@
         <!-- SEARCH BAR -->
         <div class="text-search">
             <form action="" class="search-bar">
-                <input type="text" placeholder="Browse Our Products" name="q">
-                <button type="submit"><img src="Images/search.png"></button>
-
+                <!-- <input type="text" placeholder="Browse Our Products" name="q">
+                <button type="submit"><img src="Images/search.png"></button> -->
+                <label for="searchbox">Search</label>
+                <input type="search" oninput="liveSearch()" id="searchbox" placeholder="Browse Our Products">
             </form>
 
         </div>
-        <div class="personal-icons">
+        <!-- <div class="personal-icons">
             <div class="icon1"><i class="fa-regular fa-user"></i> <span>My Account</span> </div>
             <div class="icon2"><i class="fa-regular fa-heart"></i> <span>My Wishlist</span></div>
             <div class="icon3"><i class="fa-solid fa-bag-shopping"> </i> <span>My Cart</span> </div>
 
-        </div>
+        </div> -->
     </section>
+    <!-- POST HEADER -->
+    <section class="post-header">
 
+        <nav>
+            <ul class="post-header_menu navbar__menu">
+                <div class="colors">
+                    <div class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Shop</a></li>
+                        <li><a href="product.html">Pages</a></li>
+                        <!-- <li><a href="#"> -->
+                        <div class="icon4"><i class="fa-solid fa-phone"></i> Call Us On: <a
+                                href="tel:08066202457">0806-620-2457</a>
+                        </div>
+                        <!-- </a></li> -->
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </section>
+    <!-- POST HEADER END -->
     <!-- PRODUCT SECTION -->
     <section id="products">
         <div class="product">
             <h1>OUR PRODUCTS</h1>
+        </div>
+    </section>
+
+    <section class="not-found">
+        <div class="found-img-txt">
+            <img src="Images/confused-removebg-preview.png">
+            <p>Item Not Found On Website? <br>Please Call Or Send A WhatsApp <br>
+                Message To Our Store to get this Product</p>
         </div>
     </section>
     <div class="whatsapp">
@@ -75,7 +110,7 @@
             </div>
     </div>
     <!-- FILTER SECTION -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -89,7 +124,7 @@
                                 <img src="Images/PRODUCTS/Filters/IMG-20230805-WA0001.jpg">
                                 <div class="slide-txt">
                                     <h6> NEW PART</h6>
-                                    <h5>Styre Filter<h5>
+                                    <h5 class="itms">Styre Filter<h5>
 
 
                                 </div>
@@ -98,7 +133,7 @@
                                 <img src="Images/PRODUCTS/Filters/IMG-20230805-WA0002.jpg">
                                 <div class="slide-txt">
                                     <h6> NEW PART</h6>
-                                    <h5>Oil Filter Atego 6<h5>
+                                    <h5 class="itms">Oil Filter Atego 6<h5>
 
 
                                 </div>
@@ -107,7 +142,7 @@
                                 <img src="Images/PRODUCTS/Filters/IMG-20230805-WA0003.jpg">
                                 <div class="slide-txt">
                                     <h6> NEW PART</h6>
-                                    <h5>Air Filter Daf<h5>
+                                    <h5 class="itms">Air Filter Daf<h5>
 
 
                                 </div>
@@ -518,7 +553,7 @@
     <!-- FILTER SECTION ENDS -->
 
     <!-- ENGINE PARTS -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -910,7 +945,7 @@
 
     <!-- ENGINE PARTS ENDS -->
     <!-- VALVES AND CLUTCH -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -1147,7 +1182,7 @@
     <!-- VALVES AND CLUTCH ENDS -->
 
     <!-- BALLOONS SECTION -->
-    <section id="product-section" class="filters-too">
+    <section id="product-section" class="filters-too cards">
         <!-- FILTERS -->
         <div class="filters filters-too">
             <div class="filter-txt">
@@ -1244,7 +1279,7 @@
     <!-- BALLOON SECTION ENDS -->
 
     <!-- ELECTRICAL SECTION -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -1467,7 +1502,7 @@
     </section>
     <!-- ELECTRICAL SECTION ENDS -->
     <!-- AXLE SECTION -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -1801,7 +1836,7 @@
     </section>
     <!-- AXLE SECTION ENDS -->
     <!-- BRAKE SECTION -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -1967,7 +2002,7 @@
     </section>
     <!-- BRAKE SECTION ENDS -->
     <!-- BOLTS -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -2139,7 +2174,7 @@
     <!-- BOLTS ENDS -->
 
     <!-- BODY PARTS -->
-    <section id="product-section" class="filters-too">
+    <section id="product-section" class="filters-too cards">
         <!-- FILTERS -->
         <div class="filters filters-too">
             <div class="filter-txt">
@@ -2242,7 +2277,7 @@
     <!-- BODY PARTS ENDS -->
 
     <!-- BEARINGS -->
-    <section id="product-section" class="filters-too and">
+    <section id="product-section" class="filters-too and cards">
         <!-- FILTERS -->
         <div class="filters filters-too and">
             <div class="filter-txt">
@@ -2331,7 +2366,7 @@
     <!-- BEARINGS ENDS -->
 
     <!-- BATTERIES -->
-    <section id="product-section" class="filters-to">
+    <section id="product-section" class="filters-to cards">
         <!-- FILTERS -->
         <div class="filters filters-to">
             <div class="filter-txt">
@@ -2392,7 +2427,7 @@
     <!-- BATTERIES ENDS -->
 
     <!-- SEALS -->
-    <section id="product-section" class="filters3">
+    <section id="product-section" class="filters3 cards">
         <!-- FILTERS -->
         <div class="filters filters3">
             <div class="filter-txt">
@@ -2468,7 +2503,7 @@
     </section>
     <!-- SEALS ENDS -->
     <!-- TOOLS AND TYRES -->
-    <section id="product-section">
+    <section id="product-section" class="cards">
         <!-- FILTERS -->
         <div class="filters">
             <div class="filter-txt">
@@ -2563,92 +2598,9 @@
         </div>
     </section>
     <!-- TOOLS AND TYRES ENDS -->
-    <h2>Filters</h2>
-    <h5>HELLO</h5>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-    <h2>Filters</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- FOOTER -->
-    <!-- <footer class="footer-section">
+    <footer class="footer-section">
         <section class="pre-footer">
             <div class="pre-footer-txt">
                 <h1>
@@ -2698,13 +2650,13 @@
                     </div>
                 </div>
             </section>
-
+            <!-- COPYRIGHT -->
+            <div class="copyright">
+                <p>Copyright Built By Ibonisa's IT Solutions &#169 2023</p>
+            </div>
     </footer>
-     FOOTER ENDS -->
-    <!-- COPYRIGHT -->
-    <!-- <div class="copyright">
-        <p>Copyright Built By Ibonisa's IT Solutions &#169 2023</p>
-    </div>  -->
+    <!--FOOTER ENDS -->
+
     <script src="app.js"></script>
     <script src="product.js"></script>
     <script src="mobile.js"></script>
