@@ -4,6 +4,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 /* PRE-HEADER FOR LAPTOPS */
 
 .pre-header {
@@ -1085,7 +1087,7 @@ footer input {
 .whatsapp {
     position: fixed;
     bottom: 25px;
-    z-index: 99999;
+    z-index: 99;
 }
 
 .icot,
@@ -1224,4 +1226,13 @@ h4 {
 
 .copyright p {
     color: #fff;
+}
+
+#preloader {
+    background: #fff url(Images/loading.gif) no-repeat center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }

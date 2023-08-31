@@ -31,6 +31,16 @@ function liveSearch() {
         }
     }
 }
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+})
+
+
+
+
+
 // JavaScript code
 // function search_items() {
 //     let input = document.getElementsByClassName('search-bar').value
