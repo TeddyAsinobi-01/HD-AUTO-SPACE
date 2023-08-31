@@ -5,6 +5,7 @@
         display: none;
     }
 
+
     .social_media {
         display: none;
     }
@@ -64,8 +65,7 @@
     }
 
     .personal-icons {
-        margin-top: 7px;
-        margin-left: 6em;
+        display: none;
     }
 
     .post-header {
