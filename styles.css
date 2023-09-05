@@ -1124,13 +1124,13 @@ footer input {
 
 .footer-content {
     width: 97%;
-    height: 100%;
+    height: 12%;
     margin: auto;
 }
 
 .footer-child {
     width: 100%;
-    height: 100%;
+    height: 12%;
     display: flex;
     justify-content: space-evenly;
 }

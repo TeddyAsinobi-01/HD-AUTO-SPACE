@@ -409,7 +409,7 @@
     }
 
     .footer-main {
-        height: 574%;
+        height: 95%;
     }
 
     .footer-child {
@@ -433,74 +433,9 @@
     }
 }
 
-@media screen and (min-width: 412px) and (max-width: 414px) {
-    .navbar__menu.active {
-        top: 19%;
-    }
-
-    .whatsapp {
-        bottom: 10em;
-    }
-
-    .slide-itm {
-        height: 31vh !important;
-    }
-
-    .deals {
-        height: 48vh;
-    }
-
-    .bnr {
-        height: 53vh;
-    }
-
-    .features {
-        height: 117vh;
-    }
-
-    .auto-make {
-        height: 82vh;
-    }
-
-    .sell-itm {
-        height: 56vh !important;
-    }
-
-    .major {
-        height: 72%;
-    }
-
-    .minor-itm {
-        height: 32vh !important;
-    }
-
-    .small-sell {
-        height: 63%;
-    }
-
-    .sell-deat {
-        height: 63%;
-    }
-
-    .best-selling {
-        height: 127vh;
-    }
-
-    footer {
-        height: 116vh;
-    }
-
-    .child-one {
-        height: 381px;
-    }
-
-    .information {
-        margin-top: 10px;
-        height: 187px !important;
-    }
-
-    .informations {
-        height: 143px !important;
+@media screen and (width: 540px) {
+    .footer-main {
+        height: 99% !important;
     }
 }
 
@@ -547,7 +482,7 @@
     }
 
     .footer-main {
-        height: 89%;
+        height: 116%;
     }
 }
 
@@ -652,6 +587,81 @@
 
     .pre-header_menu {
         margin-left: -166px;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+    .navbar__menu.active {
+        top: 19%;
+    }
+
+    .whatsapp {
+        bottom: 21em;
+    }
+
+    .slide-itm {
+        height: 31vh !important;
+    }
+
+    .deals {
+        height: 48vh;
+    }
+
+    .bnr {
+        height: 53vh;
+    }
+
+    .features {
+        height: 117vh;
+    }
+
+    .auto-make {
+        height: 82vh;
+    }
+
+    .sell-itm {
+        height: 56vh !important;
+    }
+
+    .major {
+        height: 72%;
+    }
+
+    .minor-itm {
+        height: 32vh !important;
+    }
+
+    .small-sell {
+        height: 63%;
+    }
+
+    .sell-deat {
+        height: 63%;
+    }
+
+    .best-selling {
+        height: 127vh;
+    }
+
+    footer {
+        height: 116vh;
+    }
+
+    .child-one {
+        height: 381px;
+    }
+
+    .information {
+        margin-top: 10px;
+        height: 187px !important;
+    }
+
+    .informations {
+        height: 143px !important;
+    }
+
+    .footer-main {
+        height: 118%;
     }
 }
 
