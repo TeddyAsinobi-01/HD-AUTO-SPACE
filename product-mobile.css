@@ -1,98 +1,10 @@
-@media screen and (width: 360px) {
-    .filters {
-        height: 251vh;
-    }
-
-    #product-section {
-        height: 251vh;
-    }
-
-    .filters-too {
-        height: 237vh !important;
-    }
-
-    .and {
-        height: 203vh !important;
-    }
-
-    .filters-to {
-        height: 116vh !important;
-    }
-
-    .filters3 {
-        height: 169vh !important;
-    }
-}
-
-@media screen and (min-width: 390px) and (max-width:393px) {
-    .filters {
-        height: 220vh;
-    }
-
-    #product-section {
-        height: 220vh;
-    }
-
-    .filters-too {
-        height: 209vh !important;
-    }
-
-    .and {
-        height: 176vh !important;
-    }
-
-    .filters-to {
-        height: 105vh !important;
-    }
-
-    .filters3 {
-        height: 152vh !important;
-    }
-}
-
-@media screen and (min-width: 412px) and (max-width: 414px) {
-    .testimonial {
-        width: 95%;
-    }
-
-    #product-section {
-        height: 206vh;
-    }
-
-    #products {
-        width: 100%;
-        height: 14vh;
-    }
-
-    .filters {
-        height: 206vh;
-    }
-
-    .filters-too {
-        height: 196vh !important;
-    }
-
-    .and {
-        height: 168vh !important;
-    }
-
-    .filters-to {
-        height: 99vh !important;
-    }
-
-    .filters3 {
-        height: 141vh !important;
-    }
-}
-
 @media screen and (max-width: 700px) {
     .navbar__menu.active {
         top: 19%;
     }
 
-    .nav-links {
-        width: 100%;
-        height: fit-content;
+    .modal-content {
+        width: 86% !important;
     }
 
     .product {
@@ -135,17 +47,82 @@
     }
 
     .filters-too {
-        height: 261vh !important;
+        height: 261vh;
     }
 
     .filters-to {
-        height: 130vh !important;
+        height: 130vh;
     }
 
     .filters3 {
-        height: 188vh !important;
+        height: 188vh;
     }
 }
+
+@media screen and (width: 360px) {
+    .filters {
+        height: 251vh;
+    }
+
+    #product-section {
+        height: 251vh;
+    }
+
+    .filters-too {
+        height: 237vh !important;
+    }
+
+    .and {
+        height: 203vh !important;
+    }
+
+    .filters-to {
+        height: 116vh !important;
+    }
+
+    .filters3 {
+        height: 169vh !important;
+    }
+}
+
+
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+    .testimonial {
+        width: 95%;
+    }
+
+    #product-section {
+        height: 206vh;
+    }
+
+    #products {
+        width: 100%;
+        height: 14vh;
+    }
+
+    .filters {
+        height: 206vh;
+    }
+
+    .filters-too {
+        height: 196vh !important;
+    }
+
+    .and {
+        height: 168vh !important;
+    }
+
+    .filters-to {
+        height: 99vh !important;
+    }
+
+    .filters3 {
+        height: 141vh !important;
+    }
+}
+
+
 
 @media screen and (width: 768px) {
     .whatsapp {
@@ -275,5 +252,32 @@
 
     .filters3 {
         height: 128vh !important;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width:393px) {
+    .tyre {
+        height: 220vh !important;
+    }
+
+    .filters,
+    #product-section {
+        height: 220vh;
+    }
+
+    .filters-too {
+        height: 209vh !important;
+    }
+
+    .and {
+        height: 176vh !important;
+    }
+
+    .filters-to {
+        height: 105vh !important;
+    }
+
+    .filters3 {
+        height: 152vh !important;
     }
 }

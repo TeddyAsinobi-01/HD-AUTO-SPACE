@@ -12,6 +12,7 @@ var slider = tns({
     slideBy: 'page',
     autoplay: true
 });
+
 function liveSearch() {
     // Locate the card elements
     let cards = document.querySelectorAll('.cards')

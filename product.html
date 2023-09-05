@@ -54,7 +54,9 @@
                 <!-- <input type="text" placeholder="Browse Our Products" name="q">
                 <button type="submit"><img src="Images/search.png"></button> -->
                 <label for="searchbox">Search</label>
-                <input type="search" oninput="liveSearch()" id="searchbox" placeholder="Browse Our Products">
+                <input type="search" oninput="liveSearch()" id="searchbox"
+                    placeholder="Browse Our Products       Caution: Don't Press Enter!">
+                <p></p>
             </form>
 
         </div>
@@ -93,13 +95,31 @@
         </div>
     </section>
 
-    <section class="not-found">
-        <div class="found-img-txt">
-            <img src="Images/confused-removebg-preview.png">
-            <p>Item Not Found On Website? <br>Please Call Or Send A WhatsApp <br>
-                Message To Our Store to get this Product</p>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Click For More Info</button>
+    <!-- <div id="mybtn" class="banner-btn">
+        <a><span></span>Click For More Info</a>
+    </div> -->
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <section class="not-found">
+                <div class="found-img-txt">
+                    <img src="Images/confused-removebg-preview.png">
+                    <p>Item Not Found On Website? <br>Please Call Or Send A WhatsApp <br>
+                        Message To Our Store to get this Product</p>
+                </div>
+            </section>
         </div>
-    </section>
+
+    </div>
+
+
+
     <div class="whatsapp">
         <a aria-label="Chat on WhatsApp"
             href="https://wa.me/+2348066202457?text=I'm%20interested%20in%20your%20product%20for%20sale"
@@ -2504,9 +2524,9 @@
     </section>
     <!-- SEALS ENDS -->
     <!-- TOOLS AND TYRES -->
-    <section id="product-section" class="cards">
+    <section id="product-section" class=" tyre cards">
         <!-- FILTERS -->
-        <div class="filters">
+        <div class="filters tyre">
             <div class="filter-txt">
                 <h2>Tyres & Tool Kits</h2>
             </div>
