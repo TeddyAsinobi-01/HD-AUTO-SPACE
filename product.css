@@ -312,8 +312,8 @@
 }
 
 .footer-main {
-    height: 205%;
-    margin-bottom: 70px;
+    height: fit-content;
+    margin-bottom: 27px;
 }
 
 .copyright {

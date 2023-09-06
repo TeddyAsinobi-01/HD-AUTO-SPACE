@@ -665,5 +665,16 @@
     }
 }
 
+@media screen and (width: 360px) {
+    .whatsapp {
+        bottom: 15em;
+    }
+
+    .footer-main {
+        height: 99%;
+        margin-bottom: 100px;
+    }
+}
+
 /* LITTLE DEALS/DEALS FOR MOBILE ENDS */
 /* CAROUSEL SECTION FOR MOBILE ENDS */
