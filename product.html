@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Truck Parts Catalogue | HD Auto Space</title>
+    <meta name="description" content="Browse heavy-duty truck parts by category or search by part or make. Filters, engine parts, brakes, electrical, axles, bearings, tyres and more. Ask for prices on WhatsApp.">
+    <meta name="theme-color" content="#073b1b">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Truck Parts Catalogue | HD Auto Space">
+    <meta property="og:description" content="Browse heavy-duty truck parts by category or search by part or make. Filters, engine parts, brakes, electrical, axles, bearings, tyres and more. Ask for prices on WhatsApp.">
+    <link rel="icon" type="image/jpeg" href="Images/Logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="products.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="product.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></symbol>
+  </svg>
+    <header class="site-header">
+        <div class="wrap">
+            <div class="header-row">
+                <a class="brand" href="index.html" aria-label="HD Auto Space, home">
+                    <img src="Images/Logo.jpg" alt="" width="42" height="42">
+                    <span class="brand-name">HD AUTO <span>SPACE</span></span>
+                </a>
+                <nav class="nav" aria-label="Main">
+                    <a href="index.html">Home</a>
+                    <a href="product.html" aria-current="page">Shop</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#contact">Contact</a>
+                </nav>
+                <a class="header-phone" href="tel:+2348066202457" data-tel><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg> <span data-phone-text>0806-620-2457</span></a>
+                <div class="header-cta">
+                    <a class="btn btn-wa" aria-label="Chat on WhatsApp" data-wa="Hello HD Auto Space, I&#x27;d like to ask about a part." href="https://wa.me/2348066202457?text=Hello%20HD%20Auto%20Space%2C%20I%27d%20like%20to%20ask%20about%20a%20part." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg><span class="btn-text">WhatsApp us</span></a>
+                    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><svg class="i i-open" aria-hidden="true"><use href="#i-menu"/></svg><svg class="i i-close" aria-hidden="true"><use href="#i-close"/></svg></button>
+                </div>
+            </div>
+        </div>
+        <div class="drawer" id="drawer">
+            <div class="wrap">
+                <a href="index.html">Home</a>
+                <a href="product.html" aria-current="page">Shop all parts</a>
+                <a href="index.html#about">About us</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="tel:+2348066202457" data-tel><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg> Call 0806-620-2457</a>
+                <a class="btn btn-wa btn-block" data-wa="Hello HD Auto Space, I&#x27;d like to ask about a part." href="https://wa.me/2348066202457?text=Hello%20HD%20Auto%20Space%2C%20I%27d%20like%20to%20ask%20about%20a%20part." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <section class="page-head">
+            <div class="wrap">
+                <h1>Truck parts catalogue</h1>
+                <p>Every part listed here is a new part. Tap Ask on WhatsApp on any item to get the price and availability.</p>
+            </div>
+        </section>
+
+        <div class="wrap shop">
+            <div class="shop-nav">
+                <form class="search" id="search-form" role="search">
+                    <label class="sr-only" for="q">Search parts</label>
+                    <svg class="i" aria-hidden="true"><use href="#i-search"/></svg>
+                    <input id="q" name="q" type="search" placeholder="Search parts or makes" autocomplete="off" enterkeyhint="search">
+                    <button class="search-clear" id="search-clear" type="button" aria-label="Clear search"><svg class="i" aria-hidden="true"><use href="#i-close"/></svg></button>
+                </form>
+                <div class="cat-list" id="cat-list" role="group" aria-label="Categories"></div>
+            </div>
+
+            <section aria-labelledby="results-title">
+                <div class="results-bar">
+                    <div>
+                        <h2 id="results-title">All parts</h2>
+                        <p class="results-count" id="results-count" aria-live="polite"></p>
+                    </div>
+                    <button class="text-btn" id="reset" type="button" hidden>Clear filters</button>
+                </div>
+
+                <ul class="grid" id="grid" role="list"></ul>
+
+                <div class="empty" id="empty" hidden>
+                    <img src="Images/confused-removebg-preview.png" alt="" width="120" height="120">
+                    <h3 id="empty-title">No matching parts</h3>
+                    <p>It may still be in stock. Send us the part name or a photo on WhatsApp and we will check for you.</p>
+                    <div class="empty-actions">
+                        <a class="btn btn-wa" id="empty-wa" data-wa="Hello, I&#x27;m looking for a part." href="https://wa.me/2348066202457?text=Hello%2C%20I%27m%20looking%20for%20a%20part." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg> Ask on WhatsApp</a>
+                        <button class="btn btn-outline" id="empty-reset" type="button">Clear filters</button>
+                    </div>
+                </div>
+
+                <div class="grid-more" id="more" hidden>
+                    <button class="btn btn-outline" id="more-btn" type="button">Show more parts</button>
+                    <p id="more-note"></p>
+                </div>
+
+                <noscript>
+                    <div class="empty">
+                        <h3>Turn on JavaScript to browse the catalogue</h3>
+                        <p>Or message us on WhatsApp or call 0806-620-2457 and tell us the part you need.</p>
+                    </div>
+                </noscript>
+
+                <div class="help-band">
+                    <div>
+                        <h2>Can't find the part?</h2>
+                        <p>Not every item is listed online. Call or send a WhatsApp message to our store to get it.</p>
+                    </div>
+                    <a class="btn btn-wa" data-wa="Hello, I couldn&#x27;t find a part on your website. Can you help?" href="https://wa.me/2348066202457?text=Hello%2C%20I%20couldn%27t%20find%20a%20part%20on%20your%20website.%20Can%20you%20help%3F" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg> Ask on WhatsApp</a>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <dialog class="viewer" id="viewer" aria-labelledby="viewer-name">
+        <div class="viewer-media" id="viewer-media">
+            <img id="viewer-img" alt="" width="800" height="800">
+            <button class="viewer-nav viewer-prev" id="viewer-prev" type="button" aria-label="Previous part"><svg class="i" aria-hidden="true"><use href="#i-left"/></svg></button>
+            <button class="viewer-nav viewer-next" id="viewer-next" type="button" aria-label="Next part"><svg class="i" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </div>
+        <div class="viewer-info">
+            <button class="viewer-close" id="viewer-close" type="button" aria-label="Close"><svg class="i" aria-hidden="true"><use href="#i-close"/></svg></button>
+            <p class="card-cat" id="viewer-cat"></p>
+            <h2 id="viewer-name"></h2>
+            <p class="card-tag" id="viewer-tag" hidden></p>
+            <div class="viewer-actions">
+                <a class="btn btn-wa" id="viewer-wa" data-wa="Hello, I&#x27;m interested in a part." href="https://wa.me/2348066202457?text=Hello%2C%20I%27m%20interested%20in%20a%20part." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg> Ask on WhatsApp</a>
+                <a class="btn btn-outline" href="tel:+2348066202457" data-tel><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg> Call 0806-620-2457</a>
+            </div>
+        </div>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="Images/Logo - Copy.jpg" alt="HD Auto Space logo" width="56" height="56" loading="lazy">
+                    <p>Heavy-duty truck parts and accessories in Diobu, Port Harcourt. Same or next day delivery or pick-up.</p>
+                    <a class="btn btn-wa" data-wa="Hello HD Auto Space, I&#x27;d like to ask about a part." href="https://wa.me/2348066202457?text=Hello%20HD%20Auto%20Space%2C%20I%27d%20like%20to%20ask%20about%20a%20part." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+                </div>
+                <div>
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="product.html">All parts</a></li>
+                        <li><a href="product.html?cat=filters">Filters</a></li>
+                        <li><a href="product.html?cat=engine-parts">Engine parts</a></li>
+                        <li><a href="product.html?cat=brake-pads-spring">Brake pads and springs</a></li>
+                        <li><a href="product.html?cat=electrical">Electrical</a></li>
+                        <li><a href="product.html?cat=tyres-tools">Tyres and tool kits</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Visit or call</h3>
+                    <ul>
+                        <li><a href="tel:+2348066202457" data-tel><span data-phone-text>0806-620-2457</span></a></li>
+                        <li><a href="mailto:hdautospace@gmail.com">hdautospace@gmail.com</a></li>
+                        <li>No 27 Owonda Street, Mile 2 Diobu, Port Harcourt, Rivers State</li>
+                        <li>Monday to Sunday, 7:00 am to 5:30 pm</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-bottom">&copy; <span data-year>2026</span> HD Auto Space. Built by Ibonisa's IT Solutions.</p>
+        </div>
+    </footer>
+
+    <a class="fab" aria-label="Chat on WhatsApp" data-wa="Hello HD Auto Space, I&#x27;m interested in your product for sale." href="https://wa.me/2348066202457?text=Hello%20HD%20Auto%20Space%2C%20I%27m%20interested%20in%20your%20product%20for%20sale." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg><span>Chat on WhatsApp</span></a>
+</body>
+
+</html>
